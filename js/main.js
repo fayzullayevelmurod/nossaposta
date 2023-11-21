@@ -1,5 +1,13 @@
 let mobile_menu = document.querySelector('.mobile_menu');
 let bars = document.querySelector('header .bars');
+let main_block_link = document.querySelector('.main_block_link');
+
+if (main_block_link) {
+    main_block_link.onclick = () => {
+        window.location.href='./index.html'
+    }
+}
+
 
 if (bars) {
     bars.onclick = () => {

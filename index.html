@@ -3,13 +3,309 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nossa Aposta App</title>
+    <meta name="keywords" content="website, blog, foo, bar">
+    <meta name="author" content="John Doe">
+    <meta name="description" content="Descubra o emocionante mundo do casino online e os incríveis bónus disponíveis no Nossa Aposta App – Tudo o que precisa saber sobre o login e as vantagens do nosso aplicativo exclusivo.">
+    <title>Nossa Aposta App - casino, bónus e login nossa aposta</title>
     <link rel="shortcut icon" href="./images/logo.ico" type="image/x-icon">
 
-    <!-- normalize css file -->
-    <link rel="stylesheet" href="./css/normalize.css">
+    <style>
+            @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fAZJhiI2B.woff2') format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+        }
+        /* cyrillic */
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fAZthiI2B.woff2') format('woff2');
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+        /* greek-ext */
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fAZNhiI2B.woff2') format('woff2');
+            unicode-range: U+1F00-1FFF;
+        }
+        /* greek */
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fAZxhiI2B.woff2') format('woff2');
+            unicode-range: U+0370-03FF;
+        }
+        /* vietnamese */
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fAZBhiI2B.woff2') format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+        }
+        /* latin-ext */
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fAZFhiI2B.woff2') format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+        /* latin */
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fAZ9hiA.woff2') format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+        /* cyrillic-ext */
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-stretch: 100%;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4taVIGxA.woff2') format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+        }
+        /* cyrillic */
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-stretch: 100%;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4kaVIGxA.woff2') format('woff2');
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+        /* greek-ext */
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-stretch: 100%;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4saVIGxA.woff2') format('woff2');
+            unicode-range: U+1F00-1FFF;
+        }
+        /* greek */
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-stretch: 100%;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4jaVIGxA.woff2') format('woff2');
+            unicode-range: U+0370-03FF;
+        }
+        /* hebrew */
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-stretch: 100%;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4iaVIGxA.woff2') format('woff2');
+            unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+        }
+        /* vietnamese */
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-stretch: 100%;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4vaVIGxA.woff2') format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+        }
+        /* latin-ext */
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-stretch: 100%;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4uaVIGxA.woff2') format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+        /* latin */
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-stretch: 100%;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4gaVI.woff2') format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+        /* devanagari */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2') format('woff2');
+            unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FF;
+        }
+        /* latin-ext */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2') format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+        /* latin */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2') format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+        /* devanagari */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2') format('woff2');
+            unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FF;
+        }
+        /* latin-ext */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2') format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+        /* latin */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2') format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        @font-face {
+            font-family: 'Myriad Pro';
+            src: url('../fonts/MYRIADPRO-REGULAR.OTF') format('opentype');
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Myriad Pro';
+            src: url('../fonts/MYRIADPRO-BOLD.OTF') format('opentype');
+            font-weight: 700;
+            font-style: normal;
+        }
+    </style>
     <!-- css file -->
     <link rel="stylesheet" href="./css/style.css">
+
+    <script type="application/ld+json">
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "MobileApplication",
+            "name": "nossa aposta app",
+            "description": "Descubra o emocionante mundo do casino online e os incríveis bónus disponíveis no Nossa Aposta App – Tudo o que precisa saber sobre o login e as vantagens do nosso aplicativo exclusivo.",
+            "mainEntityOfPage": "https:\/\/nossaaposta.app\/",
+            "datePublished": "2023-08-01",
+            "dateModified": "2023-07-31",
+            "operatingSystem": "Android",
+            "offers": { "@type": "Offer", "price": "0.0", "priceCurrency": "EUR", "availability": "https:\/\/schema.org\/InStock" },
+            "author": { "@type": "Person", "name": "nossa aposta", "url": "https:\/\/nossaaposta.app\/" },
+            "publisher": { "@type": "Organization", "name": "nossa-aposta", "logo": { "@type": "ImageObject", "url": "https:\/\/nossaaposta.app\/site\/assets\/files\/4001\/nossaaposta.webp", "width": 280, "height": 300 } },
+            "AggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "ratingCount": 132, "bestRating": "5" },
+            "applicationCategory": "nossa aposta app mobile",
+            "image": { "@type": "ImageObject", "url": "https:\/\/nossaaposta.app\/site\/assets\/files\/4000\/nossaaposta.webp", "width": 280, "height": 300, "caption": "" }
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http:\/\/schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https:\/\/nossaaposta.app",
+                        "name": "nossa aposta app"
+                    }
+                }
+            ]
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https:\/\/schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "A Nossa Aposta é legal em Portugal?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sim, possuímos a licença necessária para operar no país. Cumprimos rigorosamente todas as regulamentações estabelecidas pelas autoridades de jogos de azar em Portugal e estamos em respeito às normas legais aplicáveis para oferecer uma experiência de jogo segura e regulamentada aos nossos jogadores."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Como descarregar de forma gratuita a nossa aposta app android?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Como aqui na Nossa Aposta não possuímos uma aplicação nativa, pode criar um atalho para o site mobile seguindo estas etapas: abra o navegador no seu aparelho, aceda à página da Nossa Aposta, toque no ícone de menu e selecione ‘Adicionar à tela inicial’ ou uma opção semelhante. Pressione o botão ‘Adicionar’. Agora você terá um ícone na tela inicial para aceder ao nosso site facilmente sempre que quiser jogar."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Como resgatar o bónus de inscrição do casino nossa aposta?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "As regras da oferta para novos utilizadores são muito simples. É necessário criar um perfil na Nossa Aposta plataforma e cumprir as missões que vão aparecer na página do bónus. Se atender a todos os requisitos mínimos, poderá receber até 700 euros mais 300 freespins."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Como instalar a Nossa Aposta app para iPhone?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Não temos o programa exclusivo que pode descarregar para o seu telemóvel. No entanto, será possível obter o ícone de acesso rápido ao nosso site mobile. Todas as orientações detalhadas de download estão disponíveis no texto acima."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Como começar a apostar através da app mobile?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Se já possui uma conta na Nossa Aposta, pode fazer login. Se não tiver uma conta, clique na opção de registo e siga as instruções para criar uma nova conta. Após fazer login ou criar um perfil, terá acesso ao site móvel da Nossa Aposta e poderá começar a explorar os títulos. Para efetuar depósitos ou levantamentos, siga as instruções fornecidas na seção de pagamentos. Mantenha em mente que o site móvel da nossa aposta é responsivo e foi projetado para funcionar bem nos diferentes gadgets, proporcionando um jogo suave, mesmo sem uma app dedicada. A única coisa necessária é uma conexão segura à Internet."
+                    }
+                }
+            ]
+        }
+    </script>
 </head>
 <body>
     <div class="wrapper">
@@ -17,8 +313,8 @@
         <!-- header start -->
         <header>
             <div class="main_container">
-                <a href="#" class="logo">
-                    <img src="./images/logo.webp" alt="">
+                <a href="#" aria-label="NOSSAAPOSTA.PT" class="logo">
+                    <img src="./images/logo.webp" width="25" height="30" srcset="./images/logo.webp 1x, ./images/logo.webp 2x, ./images/logo.webp 3x" alt="">
                     <span>NOSSAAPOSTA.PT</span>
                 </a>
                 <ul class="menues">
@@ -44,9 +340,10 @@
                         <a href="#pagamento">Pagamento</a>
                     </li>
                 </ul>
-                <button class="bars">
-                    <img src="./images/bars.webp" class="burger" alt="">
-                    <img src="./images/close.webp" class="close" alt="">
+                <button aria-label="nossaaposta app" type="button" class="bars">
+                    <span class="d-none">nossaaposta app</span>
+                    <img src="./images/bars.webp" loading="lazy" class="burger" width="16" height="14" srcset="./images/bars.webp 1x, ./images/bars.webp 2x, ./images/bars.webp 3x" alt="">
+                    <img src="./images/close.webp" class="close" width="13" height="13" alt="">
                 </button>
             </div>
         </header>
@@ -75,25 +372,25 @@
                 </li>
             </ul>
             <div class="download_links">
-                <a href="#" class="link">
-                    <img src="./images/ios_icon.webp" alt="">
+                <a href="#" aria-label="Faz já o download iOS" class="link">
+                    <img src="./images/ios_icon.webp" width="27" height="34" alt="">
                     <span class="text">
-                        <span class="link_title">Faz já o download</span>
-                        <div class="link_name">iOS</div>
+                        <span class="link_title">Faz já o download</span> <br>
+                        <span class="link_name">iOS</span>
                     </span>
                 </a>
-                <a href="#" class="link">
-                    <img src="./images/desktop_icon.webp" alt="">
+                <a href="#" aria-label="Faz já o download Desktop" class="link">
+                    <img src="./images/desktop_icon.webp" width="33" height="34" alt="">
                     <span class="text">
-                        <span class="link_title">Faz já o download</span>
-                        <div class="link_name">Desktop</div>
+                        <span class="link_title">Faz já o download</span> <br>
+                        <span class="link_name">Desktop</span>
                     </span>
                 </a>
-                <a href="#" class="link">
-                    <img src="./images/android_icon.webp" alt="">
+                <a href="#" aria-label="Faz já o download Android" class="link">
+                    <img src="./images/android_icon.webp" width="30" height="34" alt="">
                     <span class="text">
-                        <span class="link_title">Faz já o download</span>
-                        <div class="link_name">Android</div>
+                        <span class="link_title">Faz já o download</span> <br>
+                        <span class="link_name">Android</span>
                     </span>
                 </a>
             </div>
@@ -106,25 +403,25 @@
                 <h1 class="title">Aplicação móvel Nossa Aposta Portugal</h1>
                 <div class="description">Através da nossa aposta  app fornecemos aos fãs de jogos de casino uma plataforma conveniente e rápida para se divertir usando uma fantástica seleção de opções de entretenimento online. Com uma interface amigável e uma série de recursos atraentes, a nossa app é uma excelente opção para aqueles que procuram por algo novo e interessante para experimentar. Temos uma licença emitida pelo SRIJ que permite operar em Portugal de forma 100% legal. Somos uma empresa segura e promovemos um jogo responsável.</div>
                 <div class="download_links">
-                    <a href="#" class="link">
-                        <img src="./images/ios_icon.webp" alt="">
+                    <a href="#" aria-label="Faz já o download iOS" class="link">
+                        <img src="./images/ios_icon.webp" loading="lazy" srcset="./images/ios_icon.webp 1x, ./images/ios_icon.webp 2x, ./images/ios_icon.webp 3x" width="27" height="34" alt="">
                         <span class="text">
-                            <span class="link_title">Faz já o download</span>
-                            <div class="link_name">iOS</div>
+                            <span class="link_title">Faz já o download</span> <br>
+                            <span class="link_name">iOS</span>
                         </span>
                     </a>
-                    <a href="#" class="link">
-                        <img src="./images/desktop_icon.webp" alt="">
+                    <a href="#" aria-label="Faz já o download Desktop" class="link">
+                        <img src="./images/desktop_icon.webp" loading="lazy" srcset="./images/desktop_icon.webp 1x, ./images/desktop_icon.webp 2x, ./images/desktop_icon.webp 3x" width="33" height="34" alt="">
                         <span class="text">
-                            <span class="link_title">Faz já o download</span>
-                            <div class="link_name">Desktop</div>
+                            <span class="link_title">Faz já o download</span> <br>
+                            <span class="link_name">Desktop</span>
                         </span>
                     </a>
-                    <a href="#" class="link">
-                        <img src="./images/android_icon.webp" alt="">
+                    <a href="#" aria-label="Faz já o download Android" class="link">
+                        <img src="./images/android_icon.webp" loading="lazy" srcset="./images/android_icon.webp 1x, ./images/android_icon.webp 2x, ./images/android_icon.webp 3x" width="30" height="34" alt="">
                         <span class="text">
-                            <span class="link_title">Faz já o download</span>
-                            <div class="link_name">Android</div>
+                            <span class="link_title">Faz já o download</span> <br>
+                            <span class="link_name">Android</span>
                         </span>
                     </a>
                 </div>
@@ -135,22 +432,22 @@
             <div class="main_container">
                 <div class="card_left">
                     <div class="card card_1">
-                        <img src="./images/home_card_1.webp" alt="nossa aposta">
+                        <img src="./images/home_card_1.webp" loading="lazy" alt="nossa aposta" width="106" height="106">
                         <div class="description">Uma das características mais destacadas da aplicação Nossa Aposta é a sua biblioteca de jogos, que inclui slots, blackjack e roleta. É algo que não encontrará em todo o site ou app disponível em Portugal. Estamos entre as melhores plataformas que possuem os jogos de casino. Os clientes que utilizam a Nossa Aposta app poderão experimentar a emoção de um casino físico através dos gadgets pessoais. A diversidade de opções amolda-se a todos os desejos e preferências.</div>
                     </div>
                     <div class="card card_2">
-                        <img src="./images/home_card_2.webp" alt="a nossa aposta">
+                        <img src="./images/home_card_2.webp" loading="lazy" alt="a nossa aposta" width="106" height="106">
                         <div class="description">Além disso, na nossa aposta app, oferecemos generosos bônus para recompensar os utilizadores, desde oferta de registo até promoções regulares para manter a emoção em alta. O processo de inscrição e login é simples e seguro, portanto os jogadores podem começar a se divertir rapidamente.</div>
                     </div>
                 </div>
-                <img src="./images/home_card_phone.webp" alt="nossa aposta app" class="main_img">
+                <img src="./images/home_card_phone.webp" loading="lazy" alt="nossa aposta app" class="main_img" width="442" height="461">
                 <div class="card_right">
                     <div class="card card_3">
-                        <img src="./images/home_card_3.webp" alt="nossa aposta casino">
+                        <img src="./images/home_card_3.webp" loading="lazy" alt="nossa aposta casino" width="106" height="106">
                         <div class="description">A segurança é uma prioridade na app Nossa Aposta, temos o objetivo de resguardar informações pessoais e financeiras dos utilizadores. É com muito orgulho que afirmamos que os utilizadores podem ter garantia de que a nossa versão móvel é um ambiente seguro.</div>
                     </div>
                     <div class="card card_4">
-                        <img src="./images/home_card_4.webp" alt="nossa aposta apostas desportivas">
+                        <img src="./images/home_card_4.webp" loading="lazy" alt="nossa aposta apostas desportivas" width="106" height="106">
                         <div class="description">No geral, nossa app é uma escolha sólida para aqueles que desejam usufruir de uma experiência de jogos online de qualidade em Portugal. Com todos os títulos populares disponíveis, bônus atrativos e segurança sólida, esta aplicação proporciona uma experiência completa para os apaixonados por jogos de azar.</div>
                     </div>
                 </div>
@@ -164,7 +461,7 @@
                 <h2 class="title_coral">Descarregue Nossa Aposta app para Android</h2>
                 <div class="main_description">Se deseja jogar através da nossa aplicação, temos que avisar que o programa nativo ainda não foi desenvolvido. Portanto, pode criar um ícone que dará o acesso em 1 toque ao site da Nossa Aposta. Siga os passos abaixo:</div>
                 <div class="main_img">
-                    <img src="./images/android_main_img.webp" alt="casino nossa aposta">
+                    <img src="./images/android_main_img.webp" loading="lazy" alt="casino nossa aposta" width="322" height="480">
                 </div>
                 <div class="cards">
                     <div class="card card_1">
@@ -179,7 +476,7 @@
                             <div class="main_description">No campo de endereço, digite o URL do nosso site.</div>
                         </div>
                         <div class="img">
-                            <img src="./images/android_search_img.webp" alt="a nossa aposta app">
+                            <img src="./images/android_search_img.webp" loading="lazy" alt="a nossa aposta app" width="381" height="79">
                         </div>
                     </div>
                     <div class="card card_3">
@@ -200,7 +497,7 @@
                             <div class="main_description">No menu suspenso, procure a opção ‘Adicionar à Tela Inicial’ ou algo semelhante. Esta opção pode diferir conforme o navegador utilizado.</div>
                         </div>
                         <div class="img">
-                            <img src="./images/android_phone.webp" alt="casino a nossa aposta online">
+                            <img src="./images/android_phone.webp" loading="lazy" alt="casino a nossa aposta online" width="404" height="477">
                         </div>
                     </div>
                     <div class="card card_6">
@@ -217,9 +514,9 @@
                     </div>
                 </div>
                 <div class="download_link">
-                    <a href="#">
+                    <a href="#" aria-label="Nossaaposta app">
                         <span>Nossaaposta app</span>
-                        <img src="./images/download_icon.webp" alt="">
+                        <img src="./images/download_icon.webp" loading="lazy" width="21" height="21" alt="">
                     </a>
                 </div>
             </div>
@@ -230,7 +527,7 @@
         <section id="apk">
             <div class="main_container">
                 <h2 class="title_coral">Instruções de instalação do Nossa Aposta.apk</h2>
-                <img src="./images/apk_icon.webp" alt="nossa aposta pt">
+                <img src="./images/apk_icon.webp" loading="lazy" alt="nossa aposta pt" width="112" height="113">
                 <div class="main_description">Ao seguir todas as orientações acima, não terá de fazer mais nada. Agora, sempre que quiser aceder a nossa aposta app, basta dar um toque no ícone correspondente na tela do Android para abrir a página principal da versão móvel. Isso proporcionará um acesso rápido e conveniente à Nossa Aposta no seu gadget. Deverá estar conectado à Internet para utilizar a app dessa forma.</div>
             </div>
         </section>
@@ -241,7 +538,7 @@
             <div class="main_container">
                 <h2 class="title_coral">Descarregue a app Nossa Aposta para iOS</h2>
                 <div class="main_description">Também não possuímos uma app dedicada para os telemóveis iOS. Os utilizadores deste smartphone podem seguir as orientações abaixo para obter o acesso conveniente à nossa plataforma.</div>
-                <img src="./images/ios_main_img.webp" class="main_img" alt="nossa aposta online">
+                <img src="./images/ios_main_img.webp" loading="lazy" class="main_img" alt="nossa aposta online" width="443" height="463">
                 <div class="cards">
                     <div class="card card_1">
                         <div class="card_top">
@@ -254,28 +551,28 @@
                             <div class="main_number">2</div>
                             <div class="main_description">Digite o endereço da Nossa Aposta e aceda à página principal.</div>
                         </div>
-                        <img src="./images/ios_card_2.webp" alt="nossa aposta app download">
+                        <img src="./images/ios_card_2.webp" loading="lazy" alt="nossa aposta app download" width="204" height="410">
                     </div>
                     <div class="card card_3">
                         <div class="card_top">
                             <div class="main_number">3</div>
                             <div class="main_description">Na parte inferior da tela, verá um menu e um ícone de compartilhamento no centro. Toque nesta opção para abrir o menu.</div>
                         </div>
-                        <img src="./images/ios_card_3.webp" alt="nossa aposta app android">
+                        <img src="./images/ios_card_3.webp" loading="lazy" alt="nossa aposta app android" width="204" height="410">
                     </div>
                     <div class="card card_4">
                         <div class="card_top">
                             <div class="main_number">4</div>
                             <div class="main_description">Role para baixo até encontrar ‘Adicionar à Tela de Início’. Selecione esta opção.</div>
                         </div>
-                        <img src="./images/ios_card_4.webp" alt="app nossa aposta">
+                        <img src="./images/ios_card_4.webp" loading="lazy" alt="app nossa aposta" width="218" height="410">
                     </div>
                     <div class="card card_5">
                         <div class="card_top">
                             <div class="main_number">5</div>
                             <div class="main_description">Neste passo poderá alterar o nome do atalho, se desejar, ou deixar ‘Nossa Aposta’. Clique em ‘Adicionar’ novamente.</div>
                         </div>
-                        <img src="./images/ios_card_5.webp" alt="nossa aposta apk">
+                        <img src="./images/ios_card_5.webp" loading="lazy" alt="nossa aposta apk" width="210" height="411">
                     </div>
                     <div class="card card_6">
                         <div class="card_top">
@@ -285,9 +582,9 @@
                     </div>
                 </div>
                 <div class="download_link">
-                    <a href="#">
+                    <a href="#" aria-label="Nossaaposta app">
                         <span>Nossaaposta app</span>
-                        <img src="./images/download_icon.webp" alt="">
+                        <img src="./images/download_icon.webp" loading="lazy" width="21" height="21" alt="">
                     </a>
                 </div>
             </div>
@@ -297,7 +594,7 @@
         <!-- iphone start -->
         <section id="iphone">
             <div class="main_container">
-                <img src="./images/iphone_coral_icon.webp" alt="nossa aposta">
+                <img src="./images/iphone_coral_icon.webp" loading="lazy" alt="nossa aposta" width="92" height="115">
                 <h2 class="title_coral">Instalação da aplicação Nossa Aposta no iPhone</h2>
                 <div class="main_description">Não é necessário realizar etapas extras. Agora, sempre que quiser jogar via Nossa Aposta app, basta tocar no ícone adicionado à tela inicial, e será direcionado para a versão mobile do site. <br>
                     Isso proporcionará um acesso rápido, seguro e prático à Nossa Aposta no seu telemóvel. Certifique-se de ter uma conexão à internet ativa e consistente para utilizar a plataforma da Nossa Aposta dessa forma.</div>
@@ -310,18 +607,18 @@
             <div class="main_container">
                 <h2 class="title_coral">Requisitos do sistema e dispositivos Android e iOS compatíveis</h2>
                 <div class="main_description">Geralmente, para aceder a Nossa Aposta app, você precisará de:</div>
-                <img src="./images/android_and_ios_main.webp" alt="a nossa aposta" class="main_img">
+                <img src="./images/android_and_ios_main.webp" loading="lazy" alt="a nossa aposta" class="main_img" width="731" height="522">
                 <div class="top_cards">
                     <div class="item">
-                        <img src="./images/android_and_ios_card_1.webp" alt="nossa aposta app">
+                        <img src="./images/android_and_ios_card_1.webp" loading="lazy" alt="nossa aposta app" width="106" height="107">
                         <div class="main_description">Um smartphone ou tablet</div>
                     </div>
                     <div class="item">
-                        <img src="./images/android_and_ios_card_2.webp" alt="nossa aposta casino">
+                        <img src="./images/android_and_ios_card_2.webp" loading="lazy" alt="nossa aposta casino" width="107" height="107">
                         <div class="main_description">Um navegador web atualizado, como <br> Safari ou Google Chrome</div>
                     </div>
                     <div class="item">
-                        <img src="./images/android_and_ios_card_3.webp" alt="nossa aposta apostas desportivas">
+                        <img src="./images/android_and_ios_card_3.webp" loading="lazy" alt="nossa aposta apostas desportivas" width="106" height="107">
                         <div class="main_description">Uma conexão de dados móveis ativa <br> ou uma conexão Wi-Fi para acesso à <br> internet.</div>
                     </div>
                 </div>
@@ -348,15 +645,15 @@
             <div class="main_container">
                 <h2 class="title_coral">Site mobile da Nossa Aposta</h2>
                 <div class="main_description">Na plataforma para jogadores móveis, disponibilizamos os produtos e serviços que são otimizados e acessíveis diretamente em dispositivos móveis. Esta versão da Nossa Aposta é projetada para proporcionar uma experiência de utilizador fluida, permitindo o acesso a todos os jogos que mais gost</div>
-                <img src="./images/site_mobile_1.webp" alt="casino nossa aposta" class="main_img_1">
+                <img src="./images/site_mobile_1.webp" loading="lazy" alt="casino nossa aposta" class="main_img_1" width="656" height="512">
                 <div class="main_description main_description_2">Ao entrar no site nossa aposta pt, verá as opções de registo e login no painel superior, assim como o botão de menu. Abaixo estarão apresentadas as promoções mais atraentes.
                     No fundo, oferecemos os botões de central da ajuda, promoções, depósito e chat ao vivo.
                     O centro da página é dedicado aos jogos de casino populares. Além disso, os nossos clientes podem usar a opção de pesquisa para localizar seus títulos preferidos o mais rápido possível.</div>
-                <img src="./images/site_mobile_2.webp" alt="a nossa aposta app" class="main_img_2">
+                <img src="./images/site_mobile_2.webp" loading="lazy" alt="a nossa aposta app" class="main_img_2" width="528" height="551">
                 <div class="download_link">
-                    <a href="#">
+                    <a href="#" aria-label="Nossaaposta app">
                         <span>Nossaaposta app</span>
-                        <img src="./images/download_icon.webp" alt="">
+                        <img src="./images/download_icon.webp" loading="lazy" width="21" height="21" alt="">
                     </a>
                 </div>
             </div>
@@ -370,32 +667,32 @@
                 <div class="main_description">Principais características do nosso site mobile Nossa Aposta são as seguintes:</div>
                 <div class="cards">
                     <div class="item">
-                        <img src="./images/support_card_1.webp" alt="casino a nossa aposta online">
+                        <img src="./images/support_card_1.webp" loading="lazy" alt="casino a nossa aposta online" width="106" height="107">
                         <div class="title">Acessibilidade em qualquer lugar</div>
                         <div class="main_description">Com o site mobile da nossa aposta online, os utilizadores têm a liberdade de aceder à nossa plataforma a partir de qualquer local, contanto que possuam uma conexão à internet nos telemóveis. Poderá aproveitar os jogos enquanto estiver em trânsito, em casa ou em qualquer outro local.</div>
                     </div>
                     <div class="item">
-                        <img src="./images/support_card_2.webp" alt="nossa aposta pt">
+                        <img src="./images/support_card_2.webp" loading="lazy" alt="nossa aposta pt" width="106" height="107">
                         <div class="title">Interface amigável</div>
                         <div class="main_description">A versão para smartphones é até melhor do que o site principal, pois é desenvolvida com uma interface responsiva. Dessa maneira, a navegação e a interação com a Nossa Aposta será suave e intuitiva.</div>
                     </div>
                     <div class="item">
-                        <img src="./images/support_card_3.webp" alt="nossa aposta online">
+                        <img src="./images/support_card_3.webp" loading="lazy" alt="nossa aposta online" width="106" height="107">
                         <div class="title">Variedade de títulos</div>
                         <div class="main_description">Oferecemos uma biblioteca de jogos que contém dezenas de slots, além disso, há diversos títulos de roleta e blackjack. Infelizmente não possuímos os jogos com dealer ao vivo, pois isso é proibido pela lei.</div>
                     </div>
                     <div class="item">
-                        <img src="./images/support_card_4.webp" alt="nossa aposta app download">
+                        <img src="./images/support_card_4.webp" loading="lazy" alt="nossa aposta app download" width="106" height="107">
                         <div class="title">Funcionalidade completa</div>
                         <div class="main_description">A versão mobile nossa aposta casino tem funções semelhantes à versão para PC. Ou seja, os utilizadores podem realizar depósitos, solicitar levantamentos, verificar as suas contas e aproveitar promoções e bónus diretamente em seus dispositivos móveis.</div>
                     </div>
                     <div class="item">
-                        <img src="./images/support_card_5.webp" alt="nossa aposta app android">
+                        <img src="./images/support_card_5.webp" loading="lazy" alt="nossa aposta app android" width="106" height="107">
                         <div class="title">Segurança</div>
                         <div class="main_description">Esta é a nossa prioridade, portanto a Nossa Aposta é projetada para proteger as informações pessoais e financeiras dos clientes inscritos. A segurança proporciona tranquilidade aos apostadores, pois eles sabem que estão a jogar num site protegido.</div>
                     </div>
                     <div class="item">
-                        <img src="./images/support_card_6.webp" alt="app nossa aposta">
+                        <img src="./images/support_card_6.webp" loading="lazy" alt="app nossa aposta" width="106" height="107">
                         <div class="title">Acesso rápido</div>
                         <div class="main_description">Como mencionado nas instruções anteriores, os jogadores podem criar ícones de acesso rápido para o nosso site mobile. Isso facilita a conveniência e permite visitar a Nossa Aposta com apenas um toque, sem a necessidade de digitar o endereço do site a cada vez.</div>
                     </div>
@@ -416,27 +713,27 @@
                             <div class="main_description">
                                 Clique no botão ‘Registo’
                                 <span class="img">
-                                    <img src="./images/register_card_mobile_1.webp" alt="">
+                                    <img src="./images/register_card_mobile_1.webp" width="61" height="59" loading="lazy" alt="">
                                 </span>
                             </div>
-                            <img src="./images/register_card_1.webp" alt="" class="desctop">
+                            <img src="./images/register_card_1.webp" loading="lazy" width="132" height="29" alt="" class="desctop">
                         </div>
                         <div class="item item_2">
                             <div class="main_number">2</div>
                             <div class="main_description">
                                 Uma nova janela aparecerá com uma mensagem de boas-vindas da Nossa Aposta, solicitando que introduza o e-mail e os dados de login.
                                 <span class="img">
-                                    <img src="./images/register_card_mobile_2.webp" alt="">
+                                    <img src="./images/register_card_mobile_2.webp" width="35" height="36" loading="lazy" alt="">
                                 </span>
                             </div>
-                            <img src="./images/register_card_2.webp" alt="" class="desctop">
+                            <img src="./images/register_card_2.webp" width="107" height="59" loading="lazy" alt="" class="desctop">
                         </div>
                         <div class="item item_3">
                             <div class="main_number">3</div>
                             <div class="main_description">
                                 Toque na opção ‘Seguinte’ para continuar a criação da conta na Nossa Aposta.
                                 <span class="img">
-                                    <img src="./images/register_card_mobile_3.webp" alt="">
+                                    <img src="./images/register_card_mobile_3.webp" loading="lazy" width="43" height="46" alt="">
                                 </span>
                             </div>
                         </div>
@@ -445,10 +742,10 @@
                             <div class="main_description">
                                 Preencha os campos com as informações pessoais, como nome, telemóvel, cidade, morada, nacionalidade, NIF, etc.
                                 <span class="img">
-                                    <img src="./images/register_card_mobile_4.webp" alt="">
+                                    <img src="./images/register_card_mobile_4.webp" loading="lazy" width="35" height="36" alt="">
                                 </span>
                             </div>
-                            <img src="./images/register_card_3.webp" alt="" class="desctop">
+                            <img src="./images/register_card_3.webp" loading="lazy" width="59" height="20" alt="" class="desctop">
                         </div>
                         <div class="item item_5">
                             <div class="main_number">5</div>
@@ -456,13 +753,13 @@
                         </div>
                     </div>
                 </div>
-                <img src="./images/register_bg.webp" alt="nossa aposta apk" class="right">
+                <img src="./images/register_bg.webp" loading="lazy" alt="nossa aposta apk" class="right" width="280" height="562">
             </div>
             <div class="main_container">
                 <div class="download_link">
-                    <a href="#">
+                    <a href="#" aria-label="Nossaaposta app">
                         <span>Nossaaposta app</span>
-                        <img src="./images/download_icon.webp" alt="">
+                        <img src="./images/download_icon.webp" loading="lazy" width="21" height="21" alt="">
                     </a>
                 </div>
             </div>
@@ -475,19 +772,19 @@
                 <h2 class="title_coral">Ofertas de bônus</h2>
                 <div class="main_description">No nossa aposta casino, disponibilizamos diversas ofertas promocionais para os nossos clientes proporcionando uma experiência de jogo ainda mais emocionante e recompensadora. Estas promoções variadas são projetadas para atender às necessidades de diferentes tipos de apostadores, desde novatos até utilizadores experientes. Examinaremos algumas das bonificações que temos a oferecer na Nossa Aposta. Também explicaremos como elas podem aumentar sua diversão e chances de ganhar.</div>
                 <h3 class="title_coral">Bónus de boas-vindas</h3>
-                <img src="./images/bonus_bg.webp" alt="nossa aposta" class="main_img">
+                <img src="./images/bonus_bg.webp" loading="lazy" alt="nossa aposta" class="main_img" width="280" height="562">
                 <div class="little_title">Ao aderir a nossa promoção de boas-vindas, obterá até 700 euros + 300 jogadas grátis. Siga as instruções para resgatar este prêmio maravilhoso</div>
                 <div class="cards">
                     <div class="item">
-                        <img src="./images/bonus_card_1.webp" alt="a nossa aposta">
+                        <img src="./images/bonus_card_1.webp" loading="lazy" alt="a nossa aposta" width="107" height="107">
                         <div class="main_description">Crie um perfil na Nossa Aposta.</div>
                     </div>
                     <div class="item">
-                        <img src="./images/bonus_card_2.webp" alt="nossa aposta app">
+                        <img src="./images/bonus_card_2.webp" loading="lazy" alt="nossa aposta app" width="107" height="107">
                         <div class="main_description">Vá para a página do bónus.</div>
                     </div>
                     <div class="item">
-                        <img src="./images/bonus_card_3.webp" alt="nossa aposta casino">
+                        <img src="./images/bonus_card_3.webp" loading="lazy" alt="nossa aposta casino" width="107" height="107">
                         <div class="main_description">Há 8 missões que deverá cumprir para obter o valor total do prémio. Por exemplo, faça 150€ em apostas nas slots da ‘TOP 20' e receba 25 freespins na slot Pot O Gold.</div>
                     </div>
                 </div>
@@ -502,7 +799,7 @@
                 <h3 class="title_coral">Bônus de Registo</h3>
                 <div class="main_description">Além da bonificação nossa aposta apk tradicional, também oferecemos algo que raramente encontrará nas outras plataforma de casino. É uma oferta sem depósito de 25 jogadas grátis. Veja os passos que precisa realizar:</div>
                 <div class="cards">
-                    <img src="./images/bonus_register_bg.webp" alt="nossa aposta apostas desportivas">
+                    <img src="./images/bonus_register_bg.webp" loading="lazy" alt="nossa aposta apostas desportivas" width="280" height="563">
                     <div class="item item_1">
                         <div class="main_number">1</div>
                         <div class="main_description">É necessário iniciar o processo de abertura da conta Nossa Aposta.</div>
@@ -518,9 +815,9 @@
                     </div>
                 </div>
                 <div class="download_link">
-                    <a href="#">
+                    <a href="#" aria-label="Nossaaposta app">
                         <span>Nossaaposta app</span>
-                        <img src="./images/download_icon.webp" alt="">
+                        <img src="./images/download_icon.webp" loading="lazy" width="21" height="21" alt="">
                     </a>
                 </div>
             </div>
@@ -534,12 +831,12 @@
                 <div class="main_description">Disponibilizamos diferentes prémios aos recém-registados e jogadores experientes.</div>
                 <div class="cards">
                     <div class="item">
-                        <img src="./images/event_icon.webp" alt="casino nossa aposta">
+                        <img src="./images/event_icon.webp" loading="lazy" alt="casino nossa aposta" width="142" height="142">
                         <div class="description"><span>2000€</span> para novos registos. Convidamos todos os novatos a tentar a sorte na nossa promoção semanal. É só preciso jogar nos torneios indicados pela nossa empresa. Os primeiros 11 apostadores receberão o dinheiro na forma de bónus.</div>
                     </div>
-                    <img src="./images/event_bg.webp" alt="a nossa aposta app" class="main_img">
+                    <img src="./images/event_bg.webp" loading="lazy" alt="a nossa aposta app" class="main_img" width="565" height="481">
                     <div class="item item_2">
-                        <img src="./images/event_icon.webp" alt="casino a nossa aposta online">
+                        <img src="./images/event_icon.webp" loading="lazy" alt="casino a nossa aposta online" width="142" height="142">
                         <div class="description">Caça ao prémio da Nossa Aposta. Este é um torneio onde os participantes podem ganhar de 5 a <span>270 euros</span> em bónus. Para ser elegíveis, eles devem apostar pelo menos uma vez nas slots da promoção.</div>
                     </div>
                 </div>
@@ -552,14 +849,14 @@
             <div class="main_container">
                 <h3 class="title_coral">Programa de fidelidade e VIP</h3>
                 <div class="card">
-                    <img src="./images/vip_card_1.webp" alt="nossa aposta pt" class="img_1">
+                    <img src="./images/vip_card_1.webp" loading="lazy" alt="nossa aposta pt" class="img_1" width="273" height="313">
                     <div class="item">
-                        <img src="./images/event_icon.webp" alt="nossa aposta online">
+                        <img src="./images/event_icon.webp" loading="lazy" alt="nossa aposta online" width="142" height="142">
                         <div class="description">Na Nossa Aposta, temos um cashback semanal que é um tipo de recompensa para os utilizadores leais. Cada semana, vamos oferecer 10% da quantia das suas perdas em bónus. O valor máximo do prémio que será devolvido ao nosso cliente corresponderá a 10% do montante dos seus depósitos naquela semana. Atenção: o limite do bónus é de</div>
                         <span>500€.</span>
-                        <img src="./images/vip_card_mobile.webp" alt="nossa aposta app download" class="mobile">
+                        <img src="./images/vip_card_mobile.webp" loading="lazy" alt="nossa aposta app download" class="mobile" width="338" height="372">
                     </div>
-                    <img src="./images/vip_card_2.webp" alt="nossa aposta app android" class="img_2">
+                    <img src="./images/vip_card_2.webp" loading="lazy" alt="nossa aposta app android" class="img_2" width="407" height="441">
                 </div>
             </div>
         </section>
@@ -592,30 +889,30 @@
                         <div class="bg_number">3</div>
                         <div class="main_description">Roleta: Europeia Nossa Aposta, European Roulette, VIP</div>
                     </div>
-                    <img src="./images/review.webp" alt="app nossa aposta" class="main_img">
+                    <img src="./images/review.webp" loading="lazy" alt="app nossa aposta" class="main_img" width="280" height="564">
                 </div>
                 <div class="bottom_cards">
                     <div class="item">
-                        <img src="./images/review_card_1.webp" alt="nossa aposta apk">
+                        <img src="./images/review_card_1.webp" loading="lazy" alt="nossa aposta apk" width="107" height="107">
                         <div class="main_description">A página de nossa aposta casino app foi projetada com uma interface amigável e intuitiva, facilitando a navegação e a busca por jogos favoritos.</div>
                     </div>
                     <div class="item">
-                        <img src="./images/review_card_2.webp" alt="nossa aposta">
+                        <img src="./images/review_card_2.webp" loading="lazy" alt="nossa aposta" width="107" height="107">
                         <div class="main_description">Uma das principais características desta secção é a simplicidade de usos e a variedade de títulos disponíveis.</div>
                     </div>
                     <div class="item">
-                        <img src="./images/review_card_3.webp" alt="a nossa aposta">
+                        <img src="./images/review_card_3.webp" loading="lazy" alt="a nossa aposta" width="107" height="107">
                         <div class="main_description">Além disso, também oferecemos diversas promoções e bónus generosos para recompensar os jogadores. Eles podem aproveitar ofertas de boas-vindas, promoções regulares e programas de fidelidade, adicionando valor à sua experiência de jogo.</div>
                     </div>
                     <div class="item">
-                        <img src="./images/review_card_4.webp" alt="nossa aposta app">
+                        <img src="./images/review_card_4.webp" loading="lazy" alt="nossa aposta app" width="107" height="107">
                         <div class="main_description">A segurança é uma prioridade na nossa plataforma, implementamos as medidas rigorosas para proteger as informações pessoais e dados de transações financeiras dos utilizadores.</div>
                     </div>
                 </div>
                 <div class="download_link">
-                    <a href="#">
+                    <a href="#" aria-label="Nossaaposta app">
                         <span>Nossaaposta app</span>
-                        <img src="./images/download_icon.webp" alt="">
+                        <img src="./images/download_icon.webp" loading="lazy" width="21" height="21" alt="">
                     </a>
                 </div>
             </div>
@@ -626,7 +923,7 @@
         <section id="software" class="software">
             <div class="main_container">
                 <h2 class="title_coral">Fornecedores de Software</h2>
-                <img src="./images/software.webp" alt="nossa aposta casino">
+                <img src="./images/software.webp" loading="lazy" alt="nossa aposta casino" width="380" height="380">
                 <div class="main_description">Nossa seleção de jogos é viabilizada devido à vasta rede de colaboradores associados à nossa aposta. Para sua informação, é incomum que os casinos sejam os criadores dos jogos apresentados nas suas plataformas; em vez disso, eles utilizam softwares produzidos por empresas especializadas no setor. Em geral, os casinos costumam adotar softwares de quatro ou cinco desenvolvedores distintos, mas a abordagem da Nossa Aposta é notavelmente distinta, já que oferecemos os jogos de diversos principais fornecedores do mercado.</div>
             </div>
         </section>
@@ -636,7 +933,7 @@
         <section id="pagamento" class="software">
             <div class="main_container">
                 <h2 class="title_coral">Formas de pagamento</h2>
-                <img src="./images/payment.webp" alt="nossa aposta apostas desportivas">
+                <img src="./images/payment.webp" loading="lazy" alt="nossa aposta apostas desportivas" width="380" height="380">
                 <div class="main_description">Nossa seleção de jogos é viabilizada devido à vasta rede de colaboradores associados à nossa aposta. Para sua informação, é incomum que os casinos sejam os criadores dos jogos apresentados nas suas plataformas; em vez disso, eles utilizam softwares produzidos por empresas especializadas no setor. Em geral, os casinos costumam adotar softwares de quatro ou cinco desenvolvedores distintos, mas a abordagem da Nossa Aposta é notavelmente distinta, já que oferecemos os jogos de diversos principais fornecedores do mercado.</div>
             </div>
         </section>
@@ -668,9 +965,9 @@
                     <div class="item border-b-none border-r-none">Instantâneo</div>
                 </div>
                 <div class="download_link">
-                    <a href="#">
+                    <a href="#" aria-label="Nossaaposta app">
                         <span>Nossaaposta app</span>
-                        <img src="./images/download_icon.webp" alt="">
+                        <img src="./images/download_icon.webp" loading="lazy" width="21" height="21" alt="">
                     </a>
                 </div>
             </div>
@@ -707,18 +1004,18 @@
                 <div class="main_description">Apresentamos aqui as diversas maneiras pelas quais pode se comunicar com um membro da nossa equipe na Nossa Aposta</div>
                 <div class="cards">
                     <div class="item item_1">
-                        <img src="./images/customer_card_1.webp" alt="a nossa aposta app">
+                        <img src="./images/customer_card_1.webp" loading="lazy" alt="a nossa aposta app" width="106" height="107">
                         <div class="main_description">Oferecemos suporte ao cliente via chat da app nossa aposta, acessível tanto em computadores quanto em telemóveis. No entanto, existem restrições ao usar o Chrome no iOS. Se você possui um aparelho iOS e utiliza o Chrome, recomendamos que opte por uma das alternativas disponíveis.</div>
                     </div>
-                    <img src="./images/customer_main_img.webp" alt="casino a nossa aposta online" class="main_img">
+                    <img src="./images/customer_main_img.webp" loading="lazy" alt="casino a nossa aposta online" class="main_img" width="792" height="595">
                     <div class="card_right">
                         <div class="item item_2">
-                            <img src="./images/customer_card_2.webp" alt="nossa aposta pt">
+                            <img src="./images/customer_card_2.webp" loading="lazy" alt="nossa aposta pt" width="106" height="107">
                             <div class="title">E-mail</div>
                             <div class="main_description">E-mail – apoio@nossaaposta.pt</div>
                         </div>
                         <div class="item item_3">
-                            <img src="./images/customer_card_3.webp" alt="nossa aposta online">
+                            <img src="./images/customer_card_3.webp" loading="lazy" alt="nossa aposta online" width="106" height="107">
                             <div class="title">Chat ao vivo</div>
                             <div class="main_description">pode ser encontrado no canto inferior direito (09h30 – 24h00 em dias de semanas e das 11:00 às 24:00 aos feriados e fins-de-semana).</div>
                         </div>
@@ -731,16 +1028,16 @@
         <!-- conclusion start -->
         <section id="conclusion">
             <div class="main_container">
-                <img src="./images/conclusion.webp" class="main_img" alt="nossa aposta app download">
+                <img src="./images/conclusion.webp" loading="lazy" class="main_img" alt="nossa aposta app download" width="380" height="225">
                 <div class="text">
                     <h2 class="title_coral">Conclusão</h2>
                     <div class="main_description">Na Nossa Aposta, estamos comprometidos em proporcionar aos nossos utilizadores uma experiência de jogo excepcional, com uma diversidade de jogos, promoções atrativas e um suporte de qualidade. Estamos constantemente a trabalhar para melhorar e expandir os nossos serviços, garantindo que os clientes desfrutem ao máximo da sua jornada de entretenimento connosco. Agradecemos por escolher a Nossa Aposta e estamos entusiasmados para continuar proporcionando momentos emocionantes e gratificantes aos nossos clientes.</div>
                 </div>
             </div>
             <div class="download_link">
-                <a href="#">
+                <a href="#" aria-label="Nossaaposta app">
                     <span>Nossaaposta app</span>
-                    <img src="./images/download_icon.webp" alt="">
+                    <img src="./images/download_icon.webp" loading="lazy" width="21" height="21" alt="">
                 </a>
             </div>
         </section>
@@ -752,51 +1049,61 @@
                 <h3 class="title_coral">Perguntas frequentes sobre a aplicação Nossa Aposta</h3>
                 <div class="accordions">
                     <div class="accordion">
-                        <button class="accordion_head">
-                            <h4>A Nossa Aposta é legal em Portugal?</h4>
-                            <img src="./images/plus.webp" alt="" class="plus">
-                            <img src="./images/minus.webp" alt="" class="minus">
-                        </button>
+                        <h4 class="accordion_head">
+                            <button aria-label="A Nossa Aposta é legal em Portugal?" type="button">
+                                A Nossa Aposta é legal em Portugal?
+                            </button>
+                            <img src="./images/plus.webp" loading="lazy" width="20" height="21" alt="" class="plus">
+                            <img src="./images/minus.webp" loading="lazy" width="20" height="3" alt="" class="minus">
+                        </h4>
                         <div class="accordion_body">
                             Sim, possuímos a licença necessária para operar no país. Cumprimos rigorosamente todas as regulamentações estabelecidas pelas autoridades de jogos de azar em Portugal e estamos em respeito às normas legais aplicáveis para oferecer uma experiência de jogo segura e regulamentada aos nossos jogadores.
                         </div>
                     </div>
                     <div class="accordion">
-                        <button class="accordion_head">
-                            <h4>Como descarregar de forma gratuita a nossa aposta app android?</h4>
-                            <img src="./images/plus.webp" alt="" class="plus">
-                            <img src="./images/minus.webp" alt="" class="minus">
-                        </button>
+                        <h4 class="accordion_head">
+                            <button aria-label="Como descarregar de forma gratuita a nossa aposta app android?" type="button">
+                                Como descarregar de forma gratuita a nossa aposta app android?
+                            </button>
+                            <img src="./images/plus.webp" loading="lazy" width="20" height="21" alt="" class="plus">
+                            <img src="./images/minus.webp" loading="lazy" width="20" height="3" alt="" class="minus">
+                        </h4>
                         <div class="accordion_body">
                             Sim, possuímos a licença necessária para operar no país. Cumprimos rigorosamente todas as regulamentações estabelecidas pelas autoridades de jogos de azar em Portugal e estamos em respeito às normas legais aplicáveis para oferecer uma experiência de jogo segura e regulamentada aos nossos jogadores.
                         </div>
                     </div>
                     <div class="accordion">
-                        <button class="accordion_head">
-                            <h4>Como resgatar o bónus de inscrição do casino nossa aposta?</h4>
-                            <img src="./images/plus.webp" alt="" class="plus">
-                            <img src="./images/minus.webp" alt="" class="minus">
-                        </button>
+                        <h4 class="accordion_head">
+                            <button aria-label="Como resgatar o bónus de inscrição do casino nossa aposta?" type="button">
+                                Como resgatar o bónus de inscrição do casino nossa aposta?
+                            </button>
+                            <img src="./images/plus.webp" loading="lazy" width="20" height="21" alt="" class="plus">
+                            <img src="./images/minus.webp" loading="lazy" width="20" height="3" alt="" class="minus">
+                        </h4>
                         <div class="accordion_body">
                             Sim, possuímos a licença necessária para operar no país. Cumprimos rigorosamente todas as regulamentações estabelecidas pelas autoridades de jogos de azar em Portugal e estamos em respeito às normas legais aplicáveis para oferecer uma experiência de jogo segura e regulamentada aos nossos jogadores.
                         </div>
                     </div>
                     <div class="accordion">
-                        <button class="accordion_head">
-                            <h4>Como instalar a Nossa Aposta app para iPhone?</h4>
-                            <img src="./images/plus.webp" alt="" class="plus">
-                            <img src="./images/minus.webp" alt="" class="minus">
-                        </button>
+                        <h4 class="accordion_head">
+                            <button aria-label="Como instalar a Nossa Aposta app para iPhone?" type="button">
+                                Como instalar a Nossa Aposta app para iPhone?
+                            </button>
+                            <img src="./images/plus.webp" loading="lazy" width="20" height="21" alt="" class="plus">
+                            <img src="./images/minus.webp" loading="lazy" width="20" height="3" alt="" class="minus">
+                        </h4>
                         <div class="accordion_body">
                             Sim, possuímos a licença necessária para operar no país. Cumprimos rigorosamente todas as regulamentações estabelecidas pelas autoridades de jogos de azar em Portugal e estamos em respeito às normas legais aplicáveis para oferecer uma experiência de jogo segura e regulamentada aos nossos jogadores.
                         </div>
                     </div>
                     <div class="accordion">
-                        <button class="accordion_head">
-                            <h4>Como começar a apostar através da app mobile?</h4>
-                            <img src="./images/plus.webp" alt="" class="plus">
-                            <img src="./images/minus.webp" alt="" class="minus">
-                        </button>
+                        <h4 class="accordion_head">
+                            <button aria-label="Como começar a apostar através da app mobile?" type="button">
+                                Como começar a apostar através da app mobile?
+                            </button>
+                            <img src="./images/plus.webp" loading="lazy" width="20" height="21" alt="" class="plus">
+                            <img src="./images/minus.webp" loading="lazy" width="20" height="3" alt="" class="minus">
+                        </h4>
                         <div class="accordion_body">
                             Sim, possuímos a licença necessária para operar no país. Cumprimos rigorosamente todas as regulamentações estabelecidas pelas autoridades de jogos de azar em Portugal e estamos em respeito às normas legais aplicáveis para oferecer uma experiência de jogo segura e regulamentada aos nossos jogadores.
                         </div>
@@ -810,8 +1117,8 @@
         <footer>
             <div class="main_container">
                 <div class="top">
-                    <a href="#" class="logo">
-                        <img src="./images/logo_light.webp" alt="">
+                    <a href="#" aria-label="NOSSAAPOSTA.PT" class="logo">
+                        <img src="./images/logo_light.webp" loading="lazy" width="25" height="28" alt="">
                         <span>NOSSAAPOSTA.PT</span>
                     </a>
                     <div class="right">
@@ -819,47 +1126,59 @@
                             <div class="title">Apoio ao Cliente (11:00 - 24:00)</div>
                             <div class="value">SÁB/DOM/FER 11:00 - 24:00</div>
                         </div>
-                        <a href="mailto:apoio@nossaaposta.pt">
-                            <img src="./images/gmail.webp" alt="">
+                        <a href="mailto:apoio@nossaaposta.pt" aria-label="nossaaposta app">
+                            <span class="d-none">nossaaposta app</span>
+                            <img src="./images/gmail.webp" loading="lazy" width="30" height="31" alt="">
                         </a>
-                        <a href="https://www.facebook.com/NossaAposta">
-                            <img src="./images/facebook.webp" alt="">
+                        <a href="https://www.facebook.com/NossaAposta" aria-label="nossaaposta app">
+                            <span class="d-none">nossaaposta app</span>
+                            <img src="./images/facebook.webp" loading="lazy" width="30" height="31" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="content">
                     <div class="left">
-                        <a href="#">
-                            <img src="./images/foot_card_1.webp" alt="">
+                        <a href="#" aria-label="nossaaposta app">
+                            <span class="d-none">nossaaposta app</span>
+                            <img src="./images/foot_card_1.webp" loading="lazy" width="79" height="32" alt="">
                         </a>
-                        <a href="#">
-                            <img src="./images/foot_card_2.webp" alt="">
+                        <a href="#" aria-label="nossaaposta app">
+                            <span class="d-none">nossaaposta app</span>
+                            <img src="./images/foot_card_2.webp" loading="lazy" width="30" height="31" alt="">
                         </a>
-                        <a href="#">
-                            <img src="./images/foot_card_3.webp" alt="">
+                        <a href="#" aria-label="nossaaposta app">
+                            <span class="d-none">nossaaposta app</span>
+                            <img src="./images/foot_card_3.webp" loading="lazy" width="30" height="31" alt="">
                         </a>
-                        <a href="#">
-                            <img src="./images/foot_card_4.webp" alt="">
+                        <a href="#" aria-label="nossaaposta app">
+                            <span class="d-none">nossaaposta app</span>
+                            <img src="./images/foot_card_4.webp" loading="lazy" width="120" height="31" alt="">
                         </a>
                     </div>
                     <div class="right">
-                        <a href="#">
-                            <img src="./images/foot_card_5.webp" alt="">
+                        <a href="#" aria-label="nossaaposta app">
+                            <span class="d-none">nossaaposta app</span>
+                            <img src="./images/foot_card_5.webp" loading="lazy" width="95" height="21" alt="">
                         </a>
-                        <a href="#">
-                            <img src="./images/foot_card_6.webp" alt="">
+                        <a href="#" aria-label="nossaaposta app">
+                            <span class="d-none">nossaaposta app</span>
+                            <img src="./images/foot_card_6.webp" loading="lazy" width="32" height="11" alt="">
                         </a>
-                        <a href="#">
-                            <img src="./images/foot_card_7.webp" alt="">
+                        <a href="#" aria-label="nossaaposta app">
+                            <span class="d-none">nossaaposta app</span>
+                            <img src="./images/foot_card_7.webp" loading="lazy" width="42" height="21" alt="">
                         </a>
-                        <a href="#">
-                            <img src="./images/foot_card_8.webp" alt="">
+                        <a href="#" aria-label="nossaaposta app">
+                            <span class="d-none">nossaaposta app</span>
+                            <img src="./images/foot_card_8.webp" loading="lazy" width="71" height="11" alt="">
                         </a>
-                        <a href="#">
-                            <img src="./images/foot_card_9.webp" alt="">
+                        <a href="#" aria-label="nossaaposta app">
+                            <span class="d-none">nossaaposta app</span>
+                            <img src="./images/foot_card_9.webp" loading="lazy" width="34" height="11" alt="">
                         </a>
-                        <a href="#">
-                            <img src="./images/foot_card_10.webp" alt="">
+                        <a href="#" aria-label="nossaaposta app">
+                            <span class="d-none">nossaaposta app</span>
+                            <img src="./images/foot_card_10.webp" loading="lazy" width="26" height="21" alt="">
                         </a>
                     </div>
                 </div>
@@ -869,6 +1188,8 @@
                 </div>
             </div>
         </footer>
+
+        <!--hello -->
 
     </div>
     <!-- Js file -->
